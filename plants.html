@@ -5,14 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    .responsive {
-      width: 100%;
-      height: auto;
-    }
-    .thumbnail {
-    border: 2px solid #C0C0C0;
-    padding: 5px;
-    }
+    
+
     
     </style>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -52,16 +46,72 @@
     </p>
         
     </div>
-    <div class = "responsive">
-        <img src="buttercup.jpg" alt="buttercup">
-        <img src="english daisy.jpg" alt="english daisy">
-        <img src="rain lily.jpg" alt="rain lily">
+    <div class="img-fluid">
+        <img src="buttercup.jpg"  alt="buttercup">
+        <img src="english daisy.jpg"  alt="english daisy">
+        <img src="rain lily.jpg"   alt="rain lily">
+       
     </div>
-    <div class="thumbnail">
+    <br>
+    <div class="img-thumbnail">
+        
         <img src="buttercup.jpg" alt="buttercup" width="50%\9">
         <img src="english daisy.jpg" alt="english daisy" width="50%\9" >
         <img src="rain lily.jpg" alt="rain lily" width="50%\9" >
     </div>
+    <br>
+
+    <table class="table table-bordered table-striped table-hover table-sm">
+        <caption>Table data</caption>
+        <thead>
+          <tr class="table-success">
+            <th scope="col">Letter</th>
+            <th scope="col">Plant</th>
+            <th scope="col">City</th>
+            <th scope="col">Food</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-warning">
+            <th scope="row">b</th>
+            <td>Buttercup</td>
+            <td>Bangalore</td>
+            <td>Biryani</td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">e</th>
+            <td>English Daisy</td>
+            <td>El Monte</td>
+            <td>Eggroll</td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row">r</th>
+            <td>Rain Lily</td>
+            <td>Raleigh</td>
+            <td>Rocky Mountain Oysters</td>
+          </tr>
+          <tr class="table-dark">
+            <th scope="row">e</th>
+            <td>Evening primrose sundrops</td>
+            <td>Elizabeth</td>
+            <td>English muffin</td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">k</th>
+            <td>Kalmia</td>
+            <td>Kazo</td>
+            <td>Kettle corn</td>
+          </tr>
+          <tr class="table-primary">
+            <th scope="row">t</th>
+            <td>Twinleaf</td>
+            <td>Tahoe</td>
+            <td>Tuna</td>
+          </tr>
+        </tbody>
+      </table>
+
+    
     
 
 
